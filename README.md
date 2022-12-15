@@ -13,6 +13,9 @@ The project provides simple code to collect data from Twitter and Polygon(Stock 
  - You can get a free API key on the official website (https://polygon.io/).
  - We can get a stock quote with it.
 
+## Data structure
+ - In this project, the main data set consists of a nested dictionary. 
+
 ## File list
 ### Main python file
 - final_project.py
