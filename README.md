@@ -2,6 +2,8 @@
 ## Introduction
 In this project, the relationship between Tweets and stock prices is analyzed. This project is simple however, it can be a stepping stone for further research.
 The project provides simple code to collect data from Twitter and Polygon(Stock market data). You can set a period that you want to collect data but, The data of 2022 are dealt with in this project.
+###
+final_project.py is the main python file to run the program. Before running the code, We need download all local data files. You can also generate the local file by yourself with Simple_stock_api.py for stock market data and snscrape.py for twitter data. Simple_twitter_api.py can be also used to gather Twitter data however, it sometime does not work due to the conflict of the library.
 
 ## Data source
 ### Twitter
