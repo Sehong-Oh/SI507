@@ -17,7 +17,7 @@ The project provides simple code to collect data from Twitter and Polygon(Stock 
 
 ## Data structure
  - In this project, the main data set consists of a nested dictionary. The dictionary has three keys with company names (Tesla, Intel, and Nvidia). Each company consists of a dictionary with Twitter and stock data (Key names are tweets and stock respectively). Tweets and stock have a list having much information such as date, contents of tweets, and stock quote. You can check the data structure by looking at **structure.json** file.
- - For example, Tesla has two keys. One is tweets and the other is stock. In the tweets, there is a list having dictionaries that consists of URL, Date, Content, and so on. The reason why there is a list of dictionaries is that the data is stored in chronological order. In the stock, there is also a list having dictionaries in chronological order. Each element of the list has a open stock price, the highest stock price, and so on.
+ - For example, Tesla has two keys. One is tweets and the other is stock. In the tweets, there is a list having dictionaries that consists of URL, Date, Content, and so on. The reason why there is a list of dictionaries is that the data is stored in chronological order. In the stock, there is also a list having dictionaries in chronological order. Each element of the list has an open stock price, the highest stock price, and so on.
 
 ## File list
 ### Main python file
