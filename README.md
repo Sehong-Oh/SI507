@@ -3,7 +3,7 @@
 In this project, the relationship between Tweets and stock prices is analyzed. This project is simple however, it can be a stepping stone for further research.
 The project provides simple code to collect data from Twitter and Polygon(Stock market data). You can set a period that you want to collect data but, The data of 2022 are dealt with in this project.
 ###
-**final_project.py** is the main python file to run the program. Before running the code, we need to download **all local data files** and **function.py**. You can also generate new local files by yourself with Simple_stock_api.py for stock market data and snscrape.py for twitter data. Simple_twitter_api.py can be also used to gather Twitter data however, it sometime does not work due to the conflict of the library.
+**final_project.py** is the main python file to run the program. Before running the code, we need to download **all local data files** and **function.py**. You can also generate new local files by yourself with Simple_stock_api.py for stock market data and snscrape.py for twitter data. Simple_twitter_api.py can be also used to gather Twitter data however, it sometime does not work due to the conflict of the library. Please check the required package list at the bottom of README
 
 ## Data source
 ### Twitter
@@ -16,7 +16,8 @@ The project provides simple code to collect data from Twitter and Polygon(Stock 
  - We can get a stock quote with it.
 
 ## Data structure
- - In this project, the main data set consists of a nested dictionary. 
+ - In this project, the main data set consists of a nested dictionary. The dictionary has three keys with company names (Tesla, Intel, and Nvidia). Each company consists of a dictionary with Twitter and stock data (Key names are tweets and stock respectively). Tweets and stock have a list having much information such as date, contents of tweets, and stock quote. You can check the data structure by looking at **structure.json** file.
+ - For example, Tesla has two keys. One is tweets and the other is stock. In the tweets, there is a list having dictionaries that consists of URL, Date, Content, and so on. The reason why there is a list of dictionaries is that the data is stored in chronological order. In the stock, there is also a list having dictionaries in chronological order. Each element of the list has a open stock price, the highest stock price, and so on.
 
 ## File list
 ### Main python file
