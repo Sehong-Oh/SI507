@@ -21,14 +21,14 @@ The project provides simple code to collect data from Twitter and Polygon(Stock 
 
 ## File list
 ### Main python file
-- final_project.py
-- You can run this file with local data files. In this project, I divided caching files because gathering Twitter data needs much time. So, I recommend that you download my local data files first and run this code to test. All local files below are needed.
+- final_project.py (It has to be with function.py)
+- You can run this file with local data files and a function file. In this project, I divided caching files because gathering Twitter data needs much time. So, I recommend that you download my local data files first and run this code to test. All local files below are needed.
 - Polygon API key is needed to run the code. This code has a part getting data from the Web directly.
 
 ### Data gathering files
-- Twitter.py
-- stock_api.py
-- twitter_api.py
+- snscrape.py (For Twitter)
+- stock_api.py (For stock market information)
+- twitter_api.py (For Twitter, this is optional)
 
 ### Local data files
 - Tweets_tesla_from_live.csv
